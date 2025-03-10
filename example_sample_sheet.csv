@@ -1,0 +1,28 @@
+[Header]
+IEMFileVersion,4
+Investigator Name,Dr. Smith
+Experiment Name,RNA-Seq Project
+Date,2025-03-09
+Workflow,GenerateFASTQ
+Application,FASTQ Only
+Assay,TruSeq RNA
+Description,RNA sequencing of tumor samples
+Chemistry,Amplicon
+
+[Reads]
+151
+151
+
+[Settings]
+Adapter,AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+AdapterRead2,AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+[Data]
+Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,I5_Index_ID,index2,Sample_Project,Description
+Sample_1,Tumor_1,,,A001,ATCACG,,,Project_1,Patient tumor sample
+Sample_2,Tumor_2,,,A002,CGATGT,,,Project_1,Patient tumor sample
+Sample_3,Normal_1,,,A003,TTAGGC,,,Project_1,Patient normal sample
+Sample_4,Normal_2,,,A004,TGACCA,,,Project_1,Patient normal sample
+Sample_5,Tumor_3,,,A005,ACAGTG,,,Project_1,Patient tumor sample
+Sample_6,Tumor_4,,,A006,GCCAAT,,,Project_1,Patient tumor sample
+
